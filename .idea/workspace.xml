@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="caa2d5db-2535-47a7-b718-360d17ba6fc9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MicroserviceParent/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroserviceParent/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroserviceParent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroserviceParent/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroserviceParent/MicroserviceParent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CartService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CartService/src/main/java/org/dinesh/CartServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CartService/src/main/java/org/dinesh/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CartService/src/main/java/org/dinesh/enumdefinition/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CartService/src/main/java/org/dinesh/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/dinesh/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/dinesh/config/FilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/dinesh/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/dinesh/filters/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/org/dinesh/DiscoverServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/org/dinesh/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/dinesh/Controller/OrderserviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/dinesh/dto/PlaceOrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/dinesh/model/OrderDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/dinesh/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/dinesh/ConditionClass/ProductFilterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/dinesh/ProductServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/dinesh/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/dinesh/dto/ProductRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/dinesh/dto/ProductResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/dinesh/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/dinesh/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/dinesh/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/dinesh/util/LogUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/org/dinesh/productservicetest/ProductControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/org/dinesh/productservicetest/ProductServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dinesh/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/dinesh/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/dinesh/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/dinesh/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/dinesh/dto/UserRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/dinesh/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/dinesh/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/dinesh/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/org/dinesh/userservicetest/UserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/org/dinesh/userservicetest/UserServiceApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eclipse-jee-2022-09-R-win32-x86_64/eclipse/plugins/org.eclipse.wildwebdeveloper_0.6.0.202206151321/node_modules/iconv-lite/.idea/iconv-lite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit/src/main/java/com/dinesh/junit/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit/src/main/java/com/dinesh/junit/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit/src/main/java/com/dinesh/junit/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit/src/main/java/com/dinesh/junit/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit/src/main/java/com/dinesh/junit/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit/src/main/java/com/dinesh/junit/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit/src/test/java/CaculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit/src/test/java/com/dinesh/junit/BookConrollerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jwt_login/src/main/java/com/example/jwt_login/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jwt_login/src/main/java/com/example/jwt_login/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jwt_login/src/main/java/com/example/jwt_login/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jwt_login/src/main/java/com/example/jwt_login/dto/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jwt_login/src/main/java/com/example/jwt_login/filter/CookieFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jwt_login/src/main/java/com/example/jwt_login/model/AuthUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jwt_login/src/main/java/com/example/jwt_login/repository/UserAuthRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jwt_login/src/main/java/com/example/jwt_login/service/UserService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Mph05haQRc16ktn3TlG30LfdbH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Bala/Downloads/New-Ecom&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.OrderServiceApplication">
+    <configuration name="CartServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dinesh.CartServiceApplication" />
+      <module name="CartService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dinesh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dinesh.OrderServiceApplication" />
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dinesh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dinesh.ProductServiceApplication" />
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dinesh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductControllerTest.getProductByCategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dinesh.productservicetest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.dinesh.productservicetest" />
+      <option name="MAIN_CLASS_NAME" value="org.dinesh.productservicetest.ProductControllerTest" />
+      <option name="METHOD_NAME" value="getProductByCategoryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductControllerTest.getRandomProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dinesh.productservicetest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.dinesh.productservicetest" />
+      <option name="MAIN_CLASS_NAME" value="org.dinesh.productservicetest.ProductControllerTest" />
+      <option name="METHOD_NAME" value="getRandomProductTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OrderServiceApplication" />
+        <item itemvalue="Application.CartServiceApplication" />
+        <item itemvalue="JUnit.ProductControllerTest.getProductByCategoryTest" />
+        <item itemvalue="JUnit.ProductControllerTest.getRandomProductTest" />
+        <item itemvalue="Application.ProductServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="caa2d5db-2535-47a7-b718-360d17ba6fc9" name="Changes" comment="" />
+      <created>1678470212644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678470212644</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.tool.schema.spi.CommandAcceptanceException" package="org.hibernate.tool.schema.spi" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway/src/main/java/org/dinesh/filters/AuthFilter.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-service/src/main/java/org/dinesh/controllers/UserController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-service/src/test/java/org/dinesh/userservicetest/UserServiceTest.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/user-service/src/main/java/org/dinesh/controllers/UserController.java</url>
+          <line>22</line>
+          <properties class="org.dinesh.controllers.UserController" method="updateUserDetail">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/user-service/src/test/java/org/dinesh/userservicetest/UserServiceTest.java</url>
+          <line>71</line>
+          <properties class="org.dinesh.userservicetest.UserServiceTest" method="registUserWithWrongEmailPatern">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/user-service/src/test/java/org/dinesh/userservicetest/UserServiceTest.java</url>
+          <line>131</line>
+          <properties class="org.dinesh.userservicetest.UserServiceTest" method="updateUserWithWrongPassWordPattern">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/user-service/src/test/java/org/dinesh/userservicetest/UserServiceTest.java</url>
+          <line>153</line>
+          <properties class="org.dinesh.userservicetest.UserServiceTest" method="verifyUserWithNoUserInDb">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/user-service/src/test/java/org/dinesh/userservicetest/UserServiceTest.java</url>
+          <line>163</line>
+          <properties class="org.dinesh.userservicetest.UserServiceTest" method="verifyUserWithWrongPassWord">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
